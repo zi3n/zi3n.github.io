@@ -1,4 +1,4 @@
-let apiKey = '5f22007e725e4bca8f8a40c65f2f285b';
+let apiKey = 'apikey';
 $.getJSON('https://ipgeolocation.abstractapi.com/v1/?api_key=' + apiKey, function(data) {
     var output = JSON.parse(JSON.stringify(data, null, 2));
     console.log(output);
